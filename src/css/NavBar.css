@@ -1,0 +1,52 @@
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 5rem;
+}
+
+header .logo .logo2 {
+    width: 40rem;
+}
+
+.iconPerfil {
+    margin-right: 1rem;
+}
+
+.logo img {
+    width: 13rem;
+}
+
+nav {
+    background-color: #BE0C4D;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: sticky;
+    top: 0px;
+}
+
+
+
+.navBar .enlace {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 50%;
+    cursor: pointer;
+    padding: 0.6rem;
+    list-style: none;
+}
+
+.navBar .enlace:hover {
+    background-color: #92093b;
+}
+
+.navBar .enlace a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
