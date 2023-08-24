@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import iconoSivigila from "./"
 import "../css/Banner1.css"
 
 const Banner1 = ({ openModal, closeModal, open }) => {
