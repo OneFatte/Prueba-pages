@@ -5,8 +5,8 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="izquierda">
-                <img src="../../public/footer.png" alt="dane imagen" />
-                <img src="../../public/footer2.png" alt="salud imagen" />
+                <img src="footer.png" alt="dane imagen" />
+                <img src="footer2.png" alt="salud imagen" />
             </div>
             <div className="derecha">
                 <h3>SIVIGILA</h3>

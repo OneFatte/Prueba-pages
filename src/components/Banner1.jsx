@@ -1,24 +1,15 @@
 import React, { useState } from "react";
+import iconoSivigila from "./"
 import "../css/Banner1.css"
 
 const Banner1 = ({ openModal, closeModal, open }) => {
-
-    // const [open, setOpen] = useState(false);
-
-    // const openModal = () => {
-    //     setOpen(true);
-    // }
-
-    // const closeModal = () => {
-    //     setOpen(false);
-    // }
 
     return (
         <div className="banner1">
             <div className="texto">
 
                 <div>
-                    <img src="../../public/IconoSivigila.svg" alt="icono" />
+                    <img src="IconoSivigila.svg" alt="icono" />
                     <h1>Enfermedades que afectan a Colombia</h1>
                 </div>
                 <p>Aquí encontrarás las enfermedades que han generado mayor impacto en Colombia durante el último año. Puedes buscar  en estos las enfermedades que más afectan al departamento seleccionado.</p>
